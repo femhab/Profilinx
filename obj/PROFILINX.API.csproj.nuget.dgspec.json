@@ -1,0 +1,315 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX\\PROFILINX.API.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Business\\PROFILINX.Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Business\\PROFILINX.Data.csproj",
+        "projectName": "PROFILINX.Data",
+        "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Business\\PROFILINX.Data.csproj",
+        "packagesPath": "C:\\Users\\Habeebullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Habeebullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Habeebullah\\Documents\\Practices\\LocalNugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Data\\PROFILINX.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Data\\PROFILINX.Business.csproj",
+        "projectName": "PROFILINX.Business",
+        "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Data\\PROFILINX.Business.csproj",
+        "packagesPath": "C:\\Users\\Habeebullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Habeebullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Habeebullah\\Documents\\Practices\\LocalNugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Business\\PROFILINX.Data.csproj": {
+                "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Business\\PROFILINX.Data.csproj"
+              },
+              "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Viewmodel\\PROFILINX.Viewmodel.csproj": {
+                "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Viewmodel\\PROFILINX.Viewmodel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.UnitOfWork": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.22.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Viewmodel\\PROFILINX.Viewmodel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Viewmodel\\PROFILINX.Viewmodel.csproj",
+        "projectName": "PROFILINX.Viewmodel",
+        "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Viewmodel\\PROFILINX.Viewmodel.csproj",
+        "packagesPath": "C:\\Users\\Habeebullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Viewmodel\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Habeebullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Habeebullah\\Documents\\Practices\\LocalNugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX\\PROFILINX.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX\\PROFILINX.API.csproj",
+        "projectName": "PROFILINX.API",
+        "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX\\PROFILINX.API.csproj",
+        "packagesPath": "C:\\Users\\Habeebullah\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Habeebullah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Habeebullah\\Documents\\Practices\\LocalNugetPackages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Business\\PROFILINX.Data.csproj": {
+                "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Business\\PROFILINX.Data.csproj"
+              },
+              "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Data\\PROFILINX.Business.csproj": {
+                "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Data\\PROFILINX.Business.csproj"
+              },
+              "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Viewmodel\\PROFILINX.Viewmodel.csproj": {
+                "projectPath": "C:\\Users\\Habeebullah\\source\\repos\\PROFILINX.Viewmodel\\PROFILINX.Viewmodel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Authentication.OpenIdConnect": {
+              "target": "Package",
+              "version": "[5.0.1, )",
+              "noWarn": [
+                "NU1605"
+              ]
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.2.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
